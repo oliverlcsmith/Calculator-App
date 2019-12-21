@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap");
+
+* {
+  background-color: rgb(208, 233, 233);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calcMainBody {
+  width: 400px;
+  height: 650px;
+  border-radius: 15px;
+  background-color: grey;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
+.calcScreen {
+  width: auto;
+  height: 120px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  background-color: whitesmoke;
+  text-align: right;
+  font-size: 4rem;
+}
+
+.calcKeys {
+  background: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.fas {
+  background: none;
+}
+
+.calcBtn {
+  width: 80px;
+  height: 80px;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.calcBtn:hover {
+  background-color: rgb(226, 224, 224);
+}
+
+.operator {
+  background-color: rgb(253, 183, 53);
+  font-size: 1.5rem;
+}
+
+.operator:hover {
+  background-color: rgb(255, 166, 0);
+}
+
+.clear {
+  background-color: rgb(224, 136, 136);
+}
+
+.clear:hover {
+  background-color: rgb(223, 121, 121);
+}
+
+.equalSign {
+  height: 100%;
+  grid-area: 4/4/6/5;
+  border-radius: 10%;
+}
